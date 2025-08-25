@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms & Instructions | TrustBack</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Government Banner -->
+    <div class="gov-banner">
+        <div class="container">
+            <div class="banner-content">
+                <img src="../images/us-flag.png" alt="U.S. Flag" class="flag-icon">
+                <span>An official website of the United States government</span>
+                <button class="banner-toggle" aria-label="Here's how you know">Here's how you know</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-top">
+                <div class="logo-section">
+                    <div class="logo">
+                        <img src="../images/trustback-logo.png" alt="TrustBack Logo" class="trustback-logo">
+                        <div class="logo-text">
+                            <h1><a href="../index.html" style="text-decoration: none; color: inherit;">TrustBack</a></h1>
+                            <p>United States Department of the Treasury</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-tools">
+                    <div class="search-box">
+                        <input type="search" placeholder="Search TrustBack.gov" aria-label="Search">
+                        <button type="submit" aria-label="Search">🔍</button>
+                    </div>
+                    <div class="language-selector">
+                        <select aria-label="Select Language">
+                            <option>English</option>
+                            <option>Español</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="main-nav">
+        <div class="container">
+            <ul class="nav-list">
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link">Filing</a>
+                    <div class="dropdown-content">
+                        <a href="individual-filing.html">Individual Filing</a>
+                        <a href="business-filing.html">Business Filing</a>
+                        <a href="forms.html">Forms & Instructions</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link">Payment</a>
+                    <div class="dropdown-content">
+                        <a href="make-payment.html">Make a Payment</a>
+                        <a href="payment-options.html">Payment Options</a>
+                        <a href="installment-plans.html">Installment Plans</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link">Refunds</a>
+                    <div class="dropdown-content">
+                        <a href="refund-status.html">Check Refund Status</a>
+                        <a href="refund-info.html">Refund Information</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link">Credits & Deductions</a>
+                    <div class="dropdown-content">
+                        <a href="tax-credits.html">Tax Credits</a>
+                        <a href="deductions.html">Deductions</a>
+                    </div>
+                </li>
+                <li class="nav-item current">
+                    <a href="forms.html" class="nav-link">Forms & Instructions</a>
+                </li>
+                <li class="nav-item">
+                    <a href="help.html" class="nav-link">Help & Resources</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <!-- Breadcrumb -->
+            <nav class="breadcrumb" aria-label="Breadcrumb">
+                <ol>
+                    <li><a href="../index.html">Home</a></li>
+                    <li aria-current="page">Forms & Instructions</li>
+                </ol>
+            </nav>
+
+            <!-- Page Header -->
+            <header class="page-header">
+                <h1>Forms & Instructions</h1>
+                <p class="page-description">Find and download current and prior year tax forms and instructions.</p>
+            </header>
+
+            <!-- Form Search -->
+            <section class="form-search-section">
+                <div class="search-card">
+                    <h2>Find a Form or Publication</h2>
+                    <form class="form-search" role="search">
+                        <div class="search-row">
+                            <div class="search-field">
+                                <label for="form-number">Form/Publication Number</label>
+                                <input type="text" id="form-number" name="form-number" placeholder="e.g., 1040, W-2, Schedule C">
+                            </div>
+                            <div class="search-field">
+                                <label for="tax-year">Tax Year</label>
+                                <select id="tax-year" name="tax-year">
+                                    <option value="2024">2024</option>
+                                    <option value="2023">2023</option>
+                                    <option value="2022">2022</option>
+                                    <option value="2021">2021</option>
+                                    <option value="2020">2020</option>
+                                </select>
+                            </div>
+                            <div class="search-field">
+                                <button type="submit" class="search-btn">Search</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </section>
+
+            <!-- Popular Forms -->
+            <section class="popular-forms">
+                <h2>Most Popular Forms</h2>
+                <div class="forms-grid">
+                    <div class="form-card">
+                        <h3>Form 1040</h3>
+                        <p>U.S. Individual Income Tax Return</p>
+                        <div class="form-links">
+                            <a href="#" class="download-link">📄 Form (PDF)</a>
+                            <a href="#" class="download-link">📋 Instructions</a>
+                        </div>
+                        <span class="tax-year">2024</span>
+                    </div>
+
+                    <div class="form-card">
+                        <h3>Form W-4</h3>
+                        <p>Employee's Withholding Certificate</p>
+                        <div class="form-links">
+                            <a href="#" class="download-link">📄 Form (PDF)</a>
+                            <a href="#" class="download-link">📋 Instructions</a>
+                        </div>
+                        <span class="tax-year">2024</span>
+                    </div>
+
+                    <div class="form-card">
+                        <h3>Schedule C</h3>
+                        <p>Profit or Loss From Business</p>
+                        <div class="form-links">
+                            <a href="#" class="download-link">📄 Form (PDF)</a>
+                            <a href="#" class="download-link">📋 Instructions</a>
+                        </div>
+                        <span class="tax-year">2024</span>
+                    </div>
+
+                    <div class="form-card">
+                        <h3>Form 941</h3>
+                        <p>Employer's Quarterly Federal Tax Return</p>
+                        <div class="form-links">
+                            <a href="#" class="download-link">📄 Form (PDF)</a>
+                            <a href="#" class="download-link">📋 Instructions</a>
+                        </div>
+                        <span class="tax-year">2024</span>
+                    </div>
+
+                    <div class="form-card">
+                        <h3>Form 1099-MISC</h3>
+                        <p>Miscellaneous Information</p>
+                        <div class="form-links">
+                            <a href="#" class="download-link">📄 Form (PDF)</a>
+                            <a href="#" class="download-link">📋 Instructions</a>
+                        </div>
+                        <span class="tax-year">2024</span>
+                    </div>
+
+                    <div class="form-card">
+                        <h3>Form SS-4</h3>
+                        <p>Application for Employer Identification Number</p>
+                        <div class="form-links">
+                            <a href="#" class="download-link">📄 Form (PDF)</a>
+                            <a href="#" class="download-link">📋 Instructions</a>
+                        </div>
+                        <span class="tax-year">2024</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Form Categories -->
+            <section class="form-categories">
+                <h2>Forms by Category</h2>
+                <div class="categories-grid">
+                    <div class="category-card">
+                        <h3>Individual Forms</h3>
+                        <ul>
+                            <li><a href="#">Form 1040 - Individual Income Tax Return</a></li>
+                            <li><a href="#">Form 1040EZ - Income Tax Return (Short Form)</a></li>
+                            <li><a href="#">Schedule A - Itemized Deductions</a></li>
+                            <li><a href="#">Schedule B - Interest and Dividend Income</a></li>
+                            <li><a href="#">Form 8829 - Expenses for Business Use of Home</a></li>
+                        </ul>
+                        <a href="#" class="view-all">View All Individual Forms →</a>
+                    </div>
+
+                    <div class="category-card">
+                        <h3>Business Forms</h3>
+                        <ul>
+                            <li><a href="#">Form 1120 - U.S. Corporation Income Tax Return</a></li>
+                            <li><a href="#">Form 1065 - U.S. Partnership Return of Income</a></li>
+                            <li><a href="#">Schedule C - Profit or Loss From Business</a></li>
+                            <li><a href="#">Form 941 - Employer's Quarterly Federal Tax Return</a></li>
+                            <li><a href="#">Form 940 - Employer's Annual Federal Unemployment Tax Return</a></li>
+                        </ul>
+                        <a href="#" class="view-all">View All Business Forms →</a>
+                    </div>
+
+                    <div class="category-card">
+                        <h3>Employment Forms</h3>
+                        <ul>
+                            <li><a href="#">Form W-2 - Wage and Tax Statement</a></li>
+                            <li><a href="#">Form W-4 - Employee's Withholding Certificate</a></li>
+                            <li><a href="#">Form 1099-MISC - Miscellaneous Information</a></li>
+                            <li><a href="#">Form I-9 - Employment Eligibility Verification</a></li>
+                            <li><a href="#">Form W-9 - Request for Taxpayer ID Number</a></li>
+                        </ul>
+                        <a href="#" class="view-all">View All Employment Forms →</a>
+                    </div>
+
+                    <div class="category-card">
+                        <h3>Estate & Gift Forms</h3>
+                        <ul>
+                            <li><a href="#">Form 706 - United States Estate Tax Return</a></li>
+                            <li><a href="#">Form 709 - United States Gift Tax Return</a></li>
+                            <li><a href="#">Form 1041 - U.S. Income Tax Return for Estates and Trusts</a></li>
+                            <li><a href="#">Schedule K-1 - Partner's Share of Income</a></li>
+                            <li><a href="#">Form 5329 - Additional Taxes on Qualified Plans</a></li>
+                        </ul>
+                        <a href="#" class="view-all">View All Estate & Gift Forms →</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Quick Links -->
+            <section class="quick-links-section">
+                <h2>Additional Resources</h2>
+                <div class="resource-links">
+                    <a href="#" class="resource-link">
+                        <span class="icon">📚</span>
+                        <div>
+                            <h4>Publications</h4>
+                            <p>Find comprehensive guides and publications</p>
+                        </div>
+                    </a>
+                    <a href="#" class="resource-link">
+                        <span class="icon">📅</span>
+                        <div>
+                            <h4>Prior Year Forms</h4>
+                            <p>Access forms from previous tax years</p>
+                        </div>
+                    </a>
+                    <a href="#" class="resource-link">
+                        <span class="icon">📋</span>
+                        <div>
+                            <h4>Form Finder Tool</h4>
+                            <p>Interactive tool to help find the right form</p>
+                        </div>
+                    </a>
+                    <a href="#" class="resource-link">
+                        <span class="icon">💡</span>
+                        <div>
+                            <h4>Help & Instructions</h4>
+                            <p>Get help understanding forms and requirements</p>
+                        </div>
+                    </a>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h5>Filing</h5>
+                    <ul>
+                        <li><a href="#">File Your Tax Return</a></li>
+                        <li><a href="#">Forms & Instructions</a></li>
+                        <li><a href="#">Free File</a></li>
+                        <li><a href="#">Where to File</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h5>Payment</h5>
+                    <ul>
+                        <li><a href="#">Make a Payment</a></li>
+                        <li><a href="#">Payment Plans</a></li>
+                        <li><a href="#">Electronic Funds Withdrawal</a></li>
+                        <li><a href="#">Payment History</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h5>Refunds</h5>
+                    <ul>
+                        <li><a href="#">Check Your Refund</a></li>
+                        <li><a href="#">Refund Delays</a></li>
+                        <li><a href="#">Direct Deposit</a></li>
+                        <li><a href="#">Lost or Stolen Refunds</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h5>Help</h5>
+                    <ul>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Tax Questions</a></li>
+                        <li><a href="#">Identity Verification</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Accessibility</a>
+                    <a href="#">Site Map</a>
+                    <a href="#">Freedom of Information Act</a>
+                    <a href="#">No Fear Act</a>
+                </div>
+                <div class="footer-info">
+                    <p>TrustBack | United States Department of the Treasury</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+    
+    <style>
+        /* Additional styles for forms page */
+        .current .nav-link {
+            background-color: var(--dark-blue);
+        }
+        
+        .breadcrumb ol {
+            display: flex;
+            list-style: none;
+            padding: 10px 0;
+            margin-bottom: 20px;
+            font-size: 14px;
+        }
+        
+        .breadcrumb li::after {
+            content: " > ";
+            margin: 0 8px;
+            color: var(--gray-600);
+        }
+        
+        .breadcrumb li:last-child::after {
+            content: "";
+        }
+        
+        .breadcrumb a {
+            color: var(--secondary-blue);
+            text-decoration: underline;
+        }
+        
+        .page-header {
+            margin-bottom: 40px;
+        }
+        
+        .page-header h1 {
+            font-size: 36px;
+            color: var(--primary-blue);
+            margin-bottom: 10px;
+        }
+        
+        .page-description {
+            font-size: 18px;
+            color: var(--gray-600);
+        }
+        
+        .form-search-section {
+            margin-bottom: 40px;
+        }
+        
+        .search-card {
+            background: var(--white);
+            border: 2px solid var(--secondary-blue);
+            border-radius: 8px;
+            padding: 30px;
+        }
+        
+        .search-card h2 {
+            color: var(--primary-blue);
+            margin-bottom: 20px;
+        }
+        
+        .search-row {
+            display: grid;
+            grid-template-columns: 1fr 200px 150px;
+            gap: 20px;
+            align-items: end;
+        }
+        
+        .search-field label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 600;
+            color: var(--gray-800);
+        }
+        
+        .search-field input,
+        .search-field select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid var(--gray-300);
+            border-radius: 4px;
+            font-size: 16px;
+        }
+        
+        .search-btn {
+            width: 100%;
+            background: var(--secondary-blue);
+            color: white;
+            border: none;
+            padding: 12px;
+            border-radius: 4px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+        
+        .search-btn:hover {
+            background: var(--primary-blue);
+        }
+        
+        .forms-grid,
+        .categories-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin-bottom: 40px;
+        }
+        
+        .form-card,
+        .category-card {
+            background: var(--white);
+            border: 1px solid var(--gray-200);
+            border-radius: 8px;
+            padding: 25px;
+            transition: box-shadow 0.3s ease;
+        }
+        
+        .form-card:hover,
+        .category-card:hover {
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        
+        .form-card h3,
+        .category-card h3 {
+            color: var(--primary-blue);
+            margin-bottom: 8px;
+            font-size: 20px;
+        }
+        
+        .form-card p {
+            color: var(--gray-600);
+            margin-bottom: 15px;
+        }
+        
+        .form-links {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 10px;
+        }
+        
+        .download-link {
+            color: var(--secondary-blue);
+            text-decoration: underline;
+            font-size: 14px;
+        }
+        
+        .tax-year {
+            background: var(--gray-100);
+            color: var(--gray-800);
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+        
+        .category-card ul {
+            list-style: none;
+            margin: 15px 0;
+        }
+        
+        .category-card li {
+            padding: 6px 0;
+            border-bottom: 1px solid var(--gray-100);
+        }
+        
+        .category-card li:last-child {
+            border-bottom: none;
+        }
+        
+        .category-card a {
+            color: var(--secondary-blue);
+            text-decoration: underline;
+            font-size: 14px;
+        }
+        
+        .view-all {
+            color: var(--primary-blue);
+            font-weight: 600;
+            text-decoration: underline;
+        }
+        
+        .resource-links {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        
+        .resource-link {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            padding: 20px;
+            background: var(--gray-50);
+            border: 1px solid var(--gray-200);
+            border-radius: 8px;
+            text-decoration: none;
+            color: inherit;
+            transition: all 0.3s ease;
+        }
+        
+        .resource-link:hover {
+            background: var(--light-blue);
+            border-color: var(--secondary-blue);
+        }
+        
+        .resource-link .icon {
+            font-size: 24px;
+        }
+        
+        .resource-link h4 {
+            color: var(--primary-blue);
+            margin-bottom: 4px;
+        }
+        
+        .resource-link p {
+            color: var(--gray-600);
+            font-size: 14px;
+        }
+        
+        @media (max-width: 768px) {
+            .search-row {
+                grid-template-columns: 1fr;
+            }
+            
+            .forms-grid,
+            .categories-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</body>
+</html>
